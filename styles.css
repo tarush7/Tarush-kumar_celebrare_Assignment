@@ -1,0 +1,120 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #fffdfd;
+    color: #000000;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .text {
+    text-align: center;
+  }
+  
+  .section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .section-heading {
+    text-align: center;
+  }
+  
+  .section-button {
+    padding: 10px 20px;
+    background-color: #27c57b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .section-button:hover {
+    background-color: #1e7644;
+  }
+  
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+    left: 450px;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+  }
+  
+  .img-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+  }
+  
+  #my-image {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+  }
+  
+  .heart-shape {
+    clip-path: polygon(50% 100%, 100% 70%, 100% 0, 50% 30%, 0 0, 0 70%);
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 90%);
+  }
+
+  .square-shape {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9) 50%);
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.9) inset;
+  }
+
+  .rectangle-shape {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9) 50%);
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.9) inset;
+  }
+
+  .circle-shape {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9) 50%);
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.9) inset;
+  }
+  
+  .img-symbol{
+    height: 20px;
+    width: 20px;
+  }
+
+  .b-1{
+    position: relative;
+    margin: 5px 5px 5px 5px;
+  }
+
+  .b-2{
+    margin: 5px 5px 5px 5px;
+  }

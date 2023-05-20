@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Celebrare</title>
+    <script src="https://kit.fontawesome.com/3fc69b9fd0.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="back-button" href="#" onclick="exitPage()"><i class="fa-solid fa-chevron-left"
+                style="color: #000000;"></i></a>
+        <span class="text">Add Image / Icon</span>
+    </div>
+
+    <div class="section">
+        <p class="section-heading">Upload Image</p>
+
+        <div class="img-container">
+            <img id="my-image" src="" alt="" />
+        </div>
+        <div class="b-1">
+            <button class="section-button" onclick="flipImage()">Flip</button>
+            <button class="section-button" onclick="rotateImage()">Rotate</button>
+        </div>
+        <div class="b-2">
+            <button onclick="applyHeartShape()" class="section-button"><img src="/user_image_frame_1.png" alt=""
+                    class="img-symbol"></button>
+            <button onclick="applySquareShape()" class="section-button"><img src="/user_image_frame_2.png" alt=""
+                    class="img-symbol"></button>
+            <button onclick="applyRectangleShape()" class="section-button"><img src="/user_image_frame_4.png" alt=""
+                    class="img-symbol"></button>
+            <button onclick="applyCircleShape()" class="section-button"><img src="/user_image_frame_3.png" alt=""
+                    class="img-symbol"></button>
+        </div>
+
+        <input id="default-btn" type="file" hidden />
+        <button class="section-button" onclick="defaultBtnActive()" id="custom-btn">
+            Choose from Device
+        </button>
+
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
